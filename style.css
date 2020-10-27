@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+#container{
+    background: linear-gradient(329.54deg, #28aa3a 0%, #00C7C7 100%);   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46vw;
+}
+
+#app{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+
+}
+#app h1{
+    padding: 30px 0px;
+    font-family: 'Raleway';
+}
+#app input{
+    height: 30px;
+    width: 200px;
+    font-family: 'segoe ui light';
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+
+#app button{
+    background: rgb(201, 228, 245);
+    height: 35px;
+    width: 55px;
+    position: absolute;
+    margin: 1px 5px;
+    border: 2px solid lightskyblue;
+    border-radius: 10px;
+}
